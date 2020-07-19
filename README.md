@@ -1,19 +1,7 @@
-# Welcome to PyData
-
-PyData is a python library to help make data saving easier.
-
-## Installing PyData
-
-First, download Python, since it was made using Python.
-
-Go into your script with the directory of the **pyData.py** and type this.
-
-```py
-from pyData import *
-```
+**PyData** is a Python module making the use the pickle library easier.
 
 ### Creating a New List
-Let's make a new list using this. When creating this, and create a new variable
+Let's make a new list using this. Use the `newList()` function to do it such.
 
 ```py
 Movies = newList("Movies", "Movies.dat", ["Jurrasic Park", "Stuart Little", "Back to the Future"])
@@ -29,7 +17,7 @@ saveList(Movies, "Movies.dat")
 ```
 
 #### Loading Existing File to List
-Okey, so what happens if you make a change to variable, and want to roll back? Don't worry!
+Okay, so what happens if you make a change to variable, and want to roll back? Don't worry!
 ```py
 Movies[2] = "Ready Player Two"
 
